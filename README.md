@@ -35,6 +35,11 @@ Now, the `docker-machine` service is stopped by default. For running enter follo
 brew services start docker-machine
 ```
 
+Install the Virtualbox.
+```
+brew cask install –force virtualbox
+```
+
 After need to create a new virtual machine by the name `default` for docker.
 ```
 docker-machine create --driver virtualbox default
